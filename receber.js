@@ -1,7 +1,5 @@
 import readlineSync from 'readline-sync';
-/* program = readlineSync.question('Which program starts do you want? ', {
-    defaultInput: 'firefox'
-}); */
+
 let armazena = []
 
 
@@ -18,5 +16,9 @@ while (true) {
         armazena.push(pedido);
     }
 }
-let armazenado = armazena.sort()
-console.log(armazenado)
+let armazenado = armazena.sort(function (a, b) {
+    let x = a.toUpperCase(),
+        y = b.toUpperCase();
+    return x == y ? 0 : x > y ? 1 : -1;
+});
+console.log(armazenado.join("\n"));
