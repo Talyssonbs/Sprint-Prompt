@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module",
+  "name": "sprint-semana-1-do-modulo-4",
+  "version": "1.0.0",
+  "main": "receber.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
